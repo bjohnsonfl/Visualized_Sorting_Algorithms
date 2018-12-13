@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    background: #F5F5F5
+}
+.wrapper{
+    position: relative;
+    max-width: 800px;
+}
+.button{
+    background-color: burlywood;
+}
+.area {
+    height: 500px;
+    background: #A9A9A9;
+    
+    position: relative;
+    
+}
+
+/*.area div {*/
+.sortBars {
+    float:left;
+    width: 2%;
+    height: 100%;
+    background: #F5F5F5;
+    border: 2pt;
+    border-right-color: #E8E8E8;
+    border-left-color: #E8E8E8;
+    border-top-color: #E8E8E8;
+    color: #A9A9A9;
+    border-style: solid;
+    bottom: 0px;
+    position: absolute;
+}
+.highlight {
+    float:left;
+    width: 2%;
+    height: 100%;
+    background:rgba(110, 202, 255, 0.87);
+    border: 2pt;
+    border-right-color: rgba(110, 202, 255, 0.781);
+    border-left-color:rgba(110, 202, 255, 0.781);
+    border-top-color: rgba(110, 202, 255, 0.781);
+    color: #A9A9A9;
+    border-style: solid;
+    bottom: 0px;
+    position: absolute;
+}
+.highlightRed {
+    float:left;
+    width: 2%;
+    height: 100%;
+    background:rgba(255, 110, 110, 0.87);
+    border: 2pt;
+    border-right-color: rgba(255, 110, 110, 0.781);
+    border-left-color:rgba(255, 110, 110, 0.781);
+    border-top-color: rgba(255, 110, 110, 0.781);
+    color: #A9A9A9;
+    border-style: solid;
+    bottom: 0px;
+    position: absolute;
+}
